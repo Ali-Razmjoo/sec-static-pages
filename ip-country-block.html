@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <title>Too many requests!</title>
+    <title>Blocked IP!</title>
 </head>
 
 <body>
@@ -13,10 +14,13 @@
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <div class="error-text">
-                        <h1 class="error space-between">Your IP/Country Is Blocked</h1>
-                        <img src="images/404-not-found.gif" alt="Confused">
+                        <h1 class="error space-between">Your IP Is Blocked</h1>
+                        <video playsinline autoplay muted loop>
+                            <source src="images/access-denied.webm" type="video/webm">
+                        </video>
                         </br>
-                        <p class="space-between">Something is wrong with your IP/Country! Aren't you sure? Contact us at
+                        <p class="space-between">Something is wrong with your IP/Country! Aren't you sure? Contact
+                            us at
                             <a href="mailto:security@secologist.com"
                                 title="Blocked IP/Country: ::GEO::, Ray ID: ::RAY_ID::">
                                 security@secologist.com</a>.
